@@ -5,15 +5,17 @@ body{
 }
 
 .foot-container{
+    z-index: -1;
     display: flex;
     justify-content: center;
 }
 
 .foot{
+    z-index: -1;
     position: fixed;
     bottom: 0px;
     width: 100vw;
-    margin-bottom: 10px!important;
+    margin-bottom: 1px!important;
 }
 
 a{
@@ -28,6 +30,10 @@ a{
     margin: 5px;
 
     border: 1px inset #777777;
+}
+
+#explore2{
+    z-index: 10000;
 }
 
 #artwork{
